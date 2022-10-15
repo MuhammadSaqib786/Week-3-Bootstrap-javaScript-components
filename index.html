@@ -63,12 +63,10 @@
                 ><span class="fa fa-address-card fa-lg"></span> Contact</a
               >
             </li>
-
           </ul>
-          
         </div>
-        <span class="navbar-text ">
-          <a data-bs-toggle="modal" data-bs-target="#loginModal" >
+        <span class="navbar-text">
+          <a data-bs-toggle="modal" data-bs-target="#loginModal">
             <span class="fa fa-sign-in"></span> Login
           </a>
         </span>
@@ -79,38 +77,63 @@
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title">Login</h4>
-            <button type="button" class="btn-close" data-bs-dismiss="modal">
-
-            </button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="row">
-                  <div class="form-group col-sm-4">
-                          <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                          <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-group col-sm-4">
+                  <label class="sr-only" for="exampleInputPassword3"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputPassword3"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="col-sm-auto">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label"> Remember me </label>
                   </div>
-                  <div class="form-group col-sm-4">
-                      <label class="sr-only" for="exampleInputPassword3">Password</label>
-                      <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-                  </div>
-                  <div class="col-sm-auto">
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox">
-                          <label class="form-check-label"> Remember me
-                          </label>
-                      </div>
-                  </div>
+                </div>
               </div>
               <div class="row">
-                  <button type="button" class="col-6 col-sm-2 offset-sm-8 btn btn-sm mr-1 btn-secondary  float-right" data-bs-dismiss="modal">Cancel</button>
-                  <button type="submit" class="col-6 col-sm-2 btn btn-primary  float-right">Sign in</button>        
+                <button
+                  type="button"
+                  class="col-6 col-sm-2 offset-sm-8 btn btn-sm mr-1 btn-secondary float-right"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  class="col-6 col-sm-2 btn btn-primary float-right"
+                >
+                  Sign in
+                </button>
               </div>
             </form>
           </div>
         </div>
       </div>
-
     </div>
     <header class="jumbotron rounded">
       <div class="container">
@@ -135,11 +158,10 @@
                     role="button"
                     href="#reserve"
                     class="nav-link"
-                    data-bs-toggle="tooltip" 
+                    data-bs-toggle="tooltip"
                     data-bs-placement="bottom"
                     data-bs-html="true"
                     title="Or Call us at <br> <strong>+923168813499</strong>"
-          
                   >
                     Reserve Table
                   </a>
@@ -152,6 +174,73 @@
     </header>
 
     <div class="container">
+      <div class="row row-content">
+        <div class="col">
+          <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img
+                  class="d-block img-fluid"
+                  src="img/uthappizza.png"
+                  alt="uthapizza"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                    Uthappizza
+                    <span class="badge bg-danger"> HOT</span>
+                    <span class="badge badge-pill bg-secondary">$4.99</span>
+                  </h2>
+                  <p class="hidden-xs-down">
+                    A unique combination of Indian Uthappam (pancake) and
+                    Italian pizza, topped with Cerignola olives, ripe vine
+                    cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo
+                    Paneer.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="img/buffet.png"
+                  alt="promotion"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                    Weekend Grand Buffet
+                    <span class="badge bg-danger"> NEW</span>
+                  </h2>
+
+                  <p>
+                    Featuring mouthwatering combinations with a choice of five
+                    different salads, six enticing appetizers, six main entrees
+                    and five choicest desserts. Free flowing bubbly and soft
+                    drinks. All for just $19.99 per person
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="img/m-saqi.png"
+                  alt="saqib"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Muhammad Saqib</h2>
+                  <h4>Executive Chef</h4>
+                  <p>
+                    Award winning three-star Michelin chef with wide
+                    International experience having worked closely with whos-who
+                    in the culinary world, he specializes in creating
+                    mouthwatering Indo-Italian fusion experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
       <div class="row row-content align-items-center">
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
           <h3>Our Lipsmacking Culinary Creations</h3>
@@ -430,14 +519,22 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
 
     <script>
-      $(document).ready(function() {
-    $("body").tooltip({ selector: '[data-bs-toggle=tooltip]' });
-});
+      $(document).ready(function () {
+        $("body").tooltip({ selector: "[data-bs-toggle=tooltip]" });
+      });
     </script>
   </body>
 </html>
